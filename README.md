@@ -1,6 +1,6 @@
 # Vosk-STT-Custom-Component-for-HA
 <br/>
-Vosk is a fully local Speech-To-Text service which you can run even on a CPU-only PCs.
+Vosk is a fully local Speech-To-Text service which you can run even on a CPU-only PC.
 <br/>
 In comparison to Faster-Whisper I found Vosk to be more reliable and in most cases more accurate.<br/>
 Since there was no direct integeration to Home Assistant, I decided to create a custom component.<br/>
