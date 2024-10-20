@@ -35,4 +35,14 @@ stt:
 <br/><br/>
 **NOTE: if you notice, I've also added a noise cancelling and volume increase feature in this integration. This greatly helps in improving the accuracy of the Speech-to-Text.**
 <br/><br/>
-
+**Important Note:**
+<br/>
+Please keep in mind that this method of STT integration within home assistant for some reason is not fully supported hence the reason you should expect to received similar error message in your home assistant log as below:
+<br/><br/>
+The stt integration does not support any configuration parameters, got [{'platform': 'deepgram_stt', 'stt_api_key': 'xxxxxxxxxxxxxxxxxxx', 'vol_inc': 25}]. Please remove the configuration parameters from your configuration.
+<br/><br/>
+There's a chance that Home Assistant will eventually remove the option of adding stt as custom component and my component, like few other custom components out there (ie Google, OpenAI) will stop working.
+<br/><br/>
+**Acknowledgement**
+<br/>
+I was inspired by the great work done by @shiipou for the OpenAI STT integration (https://github.com/shiipou/openai_stt).
