@@ -2,8 +2,8 @@
 <br/>
 Vosk is a fully local Speech-To-Text service which you can run even on a CPU-only PCs.
 <br/>
-In comparison to Faster-Whisper I found Vosk to be more reliable and in most cases more accurate.
-Since there was no direct integeration to Home Assistant, I decided to create a custom component.
+In comparison to Faster-Whisper I found Vosk to be more reliable and in most cases more accurate.<br/>
+Since there was no direct integeration to Home Assistant, I decided to create a custom component.<br/>
 Now I'm sharing my code hoping it helps somebody else.
 <br/>
 <br/>
