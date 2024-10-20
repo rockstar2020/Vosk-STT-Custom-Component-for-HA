@@ -10,6 +10,7 @@ Now I'm sharing my code hoping it helps somebody else.
 <b>Steps to get this integration up and running</b> <br/>
 1. Please visit https://github.com/alphacep/vosk-server to get the Vosk Server installed on your server PC. I personally use docker compose so feel free to use the following code in your docker-compose.yaml.
    NOTE: visit https://alphacephei.com/vosk/models if you'd like to use other models in your docker-compose configuration.<br/>
+   
 ```
 services:
   vosk:
@@ -21,6 +22,7 @@ services:
       - 2700:2700
     restart: unless-stopped
 ```
+
 <br/>
 2. Run ```sudo docker compose up -d```. After this command is successfully executed, your server should now be accessible on http://your-server-ip:2700.
 3. Navigate to your home assistant custom_components folder and create a new folder called 'vosk_stt'. The copy all the files located in the custom components from this repository and paste it inside the newly created folder.<br/>
