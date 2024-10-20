@@ -34,9 +34,9 @@ stt:
 <br/>
 5. Restart your home assistant and enjoy this new fully local STT service.
 <br/><br/>
-**NOTE: if you notice, I've also added a noise cancelling and volume increase feature in this integration. This greatly helps in improving the accuracy of the Speech-to-Text.**
+<b>NOTE:</b> if you notice, I've also added a noise cancelling and volume increase feature in this integration. This greatly helps in improving the accuracy of the Speech-to-Text.
 <br/><br/>
-**Important Note:**
+<b>Important Note:</b>
 <br/>
 Please keep in mind that this method of STT integration within home assistant for some reason is not fully supported hence the reason you should expect to received similar error message in your home assistant log as below:
 <br/><br/>
@@ -44,6 +44,6 @@ The stt integration does not support any configuration parameters, got [{'platfo
 <br/><br/>
 There's a chance that Home Assistant will eventually remove the option of adding stt as custom component and my component, like few other custom components out there (ie Google, OpenAI) will stop working.
 <br/><br/>
-**Acknowledgement**
+<b>Acknowledgement</b>
 <br/>
 I was inspired by the great work done by @shiipou for the OpenAI STT integration (https://github.com/shiipou/openai_stt).
