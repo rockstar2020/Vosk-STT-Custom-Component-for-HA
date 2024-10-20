@@ -30,7 +30,7 @@ services:
 sudo docker compose up -d 
 ```
 
-After this command is successfully executed, your server should now be accessible on http://your-server-ip:2700.
+After this command is successfully executed, your server should now be accessible on http://your-server-ip:2700.<br/>
 3. Navigate to your home assistant custom_components folder and create a new folder called 'vosk_stt'. The copy all the files located in the custom components from this repository and paste it inside the newly created folder.<br/>
 4. Add the following in your configuration.yaml of your home assistant:<br/>
 ```
