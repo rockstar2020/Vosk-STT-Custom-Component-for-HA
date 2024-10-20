@@ -42,7 +42,7 @@ async def async_get_engine(hass, config, discovery_info=None):
 
 
 ### Noise removal and volume increase ####
-def process_audio(audio_bytes,sample_rate=16000, channels=1, sampwidth=2, volume_increase_db=5):
+def process_audio(audio_bytes, sample_rate=16000, channels=1, sampwidth=2, volume_increase_db=5):
     """
     Convert PCM binary data to WAV file format.
     :param audio_bytes: The raw PCM binary audio data.
