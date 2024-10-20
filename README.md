@@ -2,8 +2,10 @@
 <br/>
 Vosk is a fully local Speech-To-Text service which you can run even on a CPU-only PC.
 <br/>
-In comparison to Faster-Whisper I found Vosk to be more reliable and in most cases more accurate.<br/>
-Since there was no direct integeration to Home Assistant, I decided to create a custom component.<br/>
+In comparison to Faster-Whisper I found Vosk to be more reliable and in most cases more accurate.
+<br/>
+Since there was no direct integeration to Home Assistant, I decided to create a custom component.
+<br/>
 Now I'm sharing my code hoping it helps somebody else.
 <br/>
 <br/>
@@ -30,8 +32,10 @@ services:
 sudo docker compose up -d 
 ```
 
-After this command is successfully executed, your server should now be accessible on http://your-server-ip:2700.<br/>
-3. Navigate to your home assistant custom_components folder and create a new folder called 'vosk_stt'. The copy all the files located in the custom components from this repository and paste it inside the newly created folder.<br/>
+After this command is successfully executed, your server should now be accessible on http://your-server-ip:2700.
+<br/>
+3. Navigate to your home assistant custom_components folder and create a new folder called 'vosk_stt'. The copy all the files located in the custom components from this repository and paste it inside the newly created folder.
+<br/>
 
 4. Add the following in your configuration.yaml of your home assistant:<br/><br/>
 ```
