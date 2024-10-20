@@ -8,8 +8,8 @@ Now I'm sharing my code hoping it helps somebody else.
 <br/>
 <br/>
 <b>Steps to get this integration up and running</b> <br/>
-1. Please visit https://github.com/alphacep/vosk-server to get the Vosk Server installed on your server PC. I personally use docker compose so feel free to use the following code in your docker-compose.yaml.
-   <br/><b>NOTE:</b> visit https://alphacephei.com/vosk/models if you'd like to use other models in your docker-compose configuration.<br/>
+1. Please visit https://github.com/alphacep/vosk-server to learn how to get the Vosk Server installed on your server PC. I personally use docker compose so feel free to use the following code in your docker-compose.yaml.
+   <br/><b>NOTE:</b> Prior to running the Vosk Server your should visit https://alphacephei.com/vosk/models and download the desired model into /path/to/your/models/ folder. In my setup I use "vosk-model-en-us-0.22" model.<br/>
    
 ```
 services:
